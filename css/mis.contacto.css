@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+a{
+	color: #f60;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #7bbfd5;
+}
+
+body{
+	background: #fff;
+	color: #212121;
+	font-family: 'Popins' sans-serif;
+	font-size: 16px;
+}
+ul{
+	list-style: none;
+}
+fieldset{
+	border: .1em solid #f60;
+	border-radius: .5em;
+	padding: 1em;
+}
+form{
+	display: none;
+}
+form div{
+	margin: .5em;
+}
+input[type="chechbox"],input[type="radio"], select{
+	background: #eee;
+	cursor: pointer;
+}
+input[type="date"],input[type="email"],input[type="number"],input[type="text"]{
+	background: #eee;
+	border-radius: .25em;
+	color: #f60;
+	font-size: 1em;
+	padding: .25em;
+}
+input[type="date"]:focus,input[type="email"]:focus,input[type="number"]:focus,input[type="text"]:focus{
+	background: #c6ecf9;
+}
+input[type="email"]:disabled{
+	background: transparent;
+	color: #ccc;
+}
+
+input[type="file"]{
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	width: 150px;
+}
+input[type="submit"]{
+	background: #ff9a55;
+	border-radius: 0 .25em;
+	color: #500;
+	font-size: 1.5em;
+}
+input[type="submit"]:hover{
+	background: #7bbfd5;
+	border-radius: .25em 0;
+	color: #000;
+	cursor: pointer;
+}
+
+label{
+	cursor: pointer;
+	font-size: 1.2em;
+}
+nav, #principal{
+	display: inline-block;
+	font-size: 1em;
+	margin: .25em;
+	text-align: left;
+	width: 30%;
+	vertical-align: top;
+}
+table{
+	border: .1em solid #F60;
+	border-radius: .1em;
+	cursor: default;
+	font-family: helvetica, Verdana;
+	padding: .35em;
+	font-size: .75em;
+	width: 100%;
+}
+
+table img{
+	max-width: 25%;
+}
+
+
+
+table td{
+	border: .1em solid #212121;
+	border-radius: .1em;
+	word-wrap: break-word;
+	text-align: center;
+	padding: 10px;
+}
+
+
+
+table tr:nth-child(even){
+	background: powderblues;
+}
+#principal{
+	width: 65%;
+}
+.adjuntar-archivo{
+	background: #EEE url(../img/boton-buscar.png) no-repeat 100% -3px;
+	border: thin solid #f60;
+	display: inline;
+	height: 290px;
+	text-align: right;
+}
+.adjuntar-archivo:hover{
+	background: #C6ECF9 url(../img/boton-buscar2.png) no-repeat 100% -3px;
+	cursor: pointer;
+}
+.cambio{
+	transition: all 1s ease-out;
+}
+.mensajes{
+	background: yellow;
+	border-radius: .5em;
+	color: #000;
+	font-family: Helvetica, Verdana;
+	font-size: 1em;
+	padding: .5rem;
+}
